@@ -26,8 +26,9 @@ body {
 .title p {
     font-family: Helvetica;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 1em;
     color: #fff;
+    max-width: 600px;
 }
 
 .title em {font-weight:bold; font-style:normal;}
@@ -99,10 +100,18 @@ img {
 
 h1 {
     color:var(--emph-color);
-    font-size:2em;
+    font-size:1.5em;
 }
 
 table, tr, td {
 	border: 1px solid black;
 border-collapse: collapse;
+}
+
+li {
+  margin: .2em 0;
+}
+
+.imprint {
+	color: #666;
 }
